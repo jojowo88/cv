@@ -2,96 +2,77 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <style media="screen">
-    th, td {
-      padding: 5px;
-    }
-  </style>
   <meta charset="utf-8">
-  <title>Joanna's Personal Site</title>
+  <title>Joanna Wong</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Kalam&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <th rowspan="2"><img src="Profile_pic.png" height= "150" alt="Profile Picture"></th>
-      <td>
-        <table>
-          <tr>
-            <td><h1>Joanna Wong</h1></td>
-          </tr>
-          <tr>
-            <td>
-              <em>Co-Founder and Writer for ReVision Studios.</em>
-          </td>
-          </tr>
-          <tr>
-            <td rowspan="2">
-              <p style="width:400px">I am a bookkeeper and account manager currently working for a CPA firm,
-                but I'm studying to go into software development as an exciting new career.
-                I love creative writing and storytelling, which is why I also co-founded a
-                publishing company called <em>ReVision Studios</em>, where I'm currently the
-                lead writer and letterer for my team's self-published debut graphic novel,
-                <em><b><a href="https://midwintercomic.com/">Midwinter</a></b></em>.</p></td>
-          </tr>
-        </table>
-        <td><img src="RVS_logo2.png" height = "150" alt="ReVision Studios"></td>
-      </td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <h3>Education</h3>
-  <ul>
-    <dl>
-      <li><dt><strong>University of Nevada, Las Vegas</strong></dt></li>
-      <dd>Fall 2004 - December 2008</dd>
-      <dd><em>Bachelor of Science in Accounting</em></dd>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Joanna.</h1>
+    <h2>a writer and programmer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="hospital-panorama" src="images/hospital-panorama.png" alt="Midwinter-setting-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/Profile_pic.png" width="150" alt="profile-pic-img">
+      <h2>Hello!</h2>
+      <p class="intro">I'm a bookkeeper currently studying programming to pursue an exciting new career in software development.</p>
+      <img class="border-img" src="images/border-pic-line.png" alt="border-img">
       <br>
-      <li><dt><strong>University of Nevada, Las Vegas</strong></dt></li>
-      <dd>Spring 2009 - May 2012</dd>
-      <dd><em>Master of Science in Management Information System</em></dd>
-    </dl>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tr>
-      <td>2009-2016</td>
-      <td>Bookkeeper at Golden Real Estate & Investments</td>
-    </tr>
-    <tr>
-      <td>2016-current</td>
-      <td>Bookkeeper & Account Manager at Pancy Coffman CPA</td>
-    </tr>
-    <tr>
-      <td>2011-current</td>
-      <td>Co-Founder & Writer at ReVision Studios</td>
-    </tr>
-  </table>
 
-  <hr>
+    </div>
 
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Python &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
-      <td>Creative Writing &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
-    </tr>
-    <tr>
-      <td>HTML &#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
-      <td>Drawing &#x2B50;&#x2B50;&#x2B50;</td>
-    </tr>
-  </table>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="typing-img" src="images/MW-typing.png" alt="typing-img">
 
-  <hr>
+        <h3>Coding</h3>
+        <p class="coding-p">My love for video games, which is what originally got me interested in programming. The more I learned about it, the more
+          I realized how programming wasn't just about being analytical and logical, it had a creative side and I became more intrigued with what
+          I could accomplish. I'm currently studying Python, HTML, and CSS, but I am always eager to learn new skills.</p>
+      </div>
 
-    <a class="btn" href="mailto:joannawong888@gmail.com">Contact Me</a>
+      <div class="skill-row">
+        <figure>
+          <img class="comic-img" src="images/comic-pg-011.jpg" alt="comic-img" width="300">
+          <center>
+            <figcaption><i>A page from my graphic novel, Midwinter.</i></figcaption>
+          </center>
+        </figure>
+
+        <h3>Creativity</h3>
+        <p class="creative-p">I also love creative writing and storytelling, which is why outside of my regular job, I also co-founded a publishing company called ReVision Studios,
+          where I'm currently the lead writer and letterer for my team's self-published debut graphic novel, <em>Midwinter</em>. Writing allows me to think of new scenarios and story ideas
+          that I storyboard with my team members. These storyboard meetings allowed me to hone in on my communication skills in order to get my point across as quickly and concisely
+          as possible.</p>
+      </div>
+    </div>
+    <br>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Want to learn more about my work or comic?</h3>
+
+      <p>I would love to chat! And if you want to check out Midwinter, just click on the image below!</p>
+      <a href="https://www.midwintercomic.com/"><img class="midwinter-logo" src="images/MW-logo.png" alt="Midwinter-logo"> </a>
+      <br>
+      <a class="btn" type="button" href="mailto:joannawong888@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/joanna-wong-644140239">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/jojowo88">Github</a>
+    <p style="color: #C996CC; margin-block-end: auto; padding: 10px;">© 2022 Joanna Wong.</p>
+  </div>
+
 </body>
 
 </html>
